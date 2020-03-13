@@ -1,0 +1,15 @@
+name: hp-ml-generation
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - gunicorn
+  - python=3.7
+  - jupyterlab
+  - nb_conda_kernels
+  - flask
+  - pandas<1
+  - scikit-learn=0.22.1
+  - pip
+  - pip:
+    - xgboost
