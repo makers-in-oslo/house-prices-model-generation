@@ -2,22 +2,11 @@ name: pd-profile
 channels:
   - conda-forge
   - anaconda
-  - plotly
   - defaults
 dependencies:
   - pandas<1
-  - matplotlib
-  - seaborn
   - scikit-learn
   - pandas-profiling>=2.5
   - jupyterlab
   - jupyter_client=5.*
   - nb_conda_kernels
-  - plotly
-  - plotly_express
-  - requests
-  - beautifulsoup4
-  - flake8
-  - black
-  - pytest
-  - regex
