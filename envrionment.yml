@@ -10,6 +10,4 @@ dependencies:
   - flask
   - pandas<1
   - scikit-learn=0.22.1
-  - pip
-  - pip:
-    - xgboost
+  - boto3
